@@ -85,7 +85,7 @@ This bar chart shows the count of job postings for various job titles in the dat
 df_plot = df['job_country'].value_counts().to_frame().head(20).reset_index()
 df_plot.columns = ['job_country', 'count']  # Rename columns after resetting index
 
-# Plot using seaborn barplot
+# Plot using Seaborn barplot
 sns.barplot(data=df_plot, x='count', y='job_country', palette='ch:s=.25,rot=-.25_r')
 
 # Add labels and show plot

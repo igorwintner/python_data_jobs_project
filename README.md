@@ -62,7 +62,8 @@ plt.ylabel('')
 plt.title('Number of Job Postings by Job Title')
 plt.show()
 ```
-![Alt Text](images\1_count_of_jobs_by_title.png) 
+![Alt Text](images/1_count_of_jobs_by_title.png) 
+
 *Bar chart visualising the count of data job offers (Worldwide)*
 
 This bar chart shows the count of job postings for various job titles in the data field. The titles include:
@@ -93,7 +94,8 @@ plt.ylabel('')
 plt.title('Top 20 Number of Job Postings by Country')
 plt.show()
 ```
-![Alt Text](images\1_no_of_jobs_by_country.png) 
+![Alt Text](images/1_no_of_jobs_by_country.png) 
+
 *Bar chart visualising the count of data job offers by country*
 
 This bar chart shows the Top 20 countries with the highest count of job postings in the data field. The countries include:
@@ -126,7 +128,8 @@ plt.ylabel('')
 plt.title('Top 20 Number of Job Postings by Company')
 plt.show()
 ```
-![Alt Text](images\1_no_of_jobs_by_company.png)
+![Alt Text](images/1_no_of_jobs_by_company.png)
+
 *Bar chart visualising the Top 20 companies with the most data job offers (Worldwide)*
 
 This bar chart shows the Top 20 companies with the highest count of job postings in the data field. The companies include:
@@ -161,7 +164,8 @@ plt.title('Top 10 Number of Analyst Roles Postings in Europe region')
 plt.show()
 ```
 
-![Alt Text](images\1_analyst_roles_eur.png)
+![Alt Text](images/1_analyst_roles_eur.png)
+
 *Bar chart visualising the Top 10 count of Analyst job offers by city in Central Europe*
 
 This bar chart illustrates the count of job postings for analyst roles in various European cities and regions. The locations include:
@@ -215,12 +219,13 @@ fig.tight_layout(rect=[0, 0.03, 1, 0.95])
 plt.show()
 # This is code for only the first chart
 ```
-![Alt Text](images\2_demanded_skills_ww.png)
+![Alt Text](images/2_demanded_skills_ww.png)
+
 *Bar chart visualising the most demanded skills for the Top 3 most popular data roles (Worldwide)*
 
 
 ### Compare worldwide results with results in Central Europe
-![Alt Text](images\2_demanded_skills_eur.png)
+![Alt Text](images/2_demanded_skills_eur.png)
 *Bar chart visualising the most demanded skills for the Top 3 most popular data roles (Cent. European reg.)*
 
 
@@ -271,7 +276,8 @@ for i in range(5):
 
 plt.show()
 ```
-![Alt Text](images\3_skills_trend_eur.png)
+![Alt Text](images/3_skills_trend_eur.png)
+
 *Line chart visualising Top 5 trending skills for Data Analyst roles*
 
 This line chart visualizes the monthly percentage of job postings in 2023 that mention each of the Top 5 skills for Data Analysts in Central Europe region. The y-axis represents the likelihood of a skill appearing in job postings, while the x-axis shows the months of the year. The trend also shows that if there was interest in a given skill at a given time, in most cases there was also interest in a different skill, but to a different degree.
@@ -306,7 +312,8 @@ plt.gca().xaxis.set_major_formatter(ticks_x)
 
 plt.show()
 ```
-![Alt Text](images\4_ww_salaries.png)
+![Alt Text](images/4_ww_salaries.png)
+
 *Box plot visualizing the salary distributions for the Top 6 data jobs (Worldwide)*
 
 This box plot illustrates the salary distributions for various data job titles across the globe. The X-axis shows the salary per year in USD, and the Y-axis lists job titles such as Senior Data Scientist, Senior Data Engineer, Data Scientist, Data Engineer, Senior Data Analyst, and Data Analyst. Each box plot represents the range of salaries for a specific job title, including the median salary, interquartile range, and any outliers. This visualization provides an overview of how salaries vary within and across different job titles in the data field.
@@ -351,7 +358,8 @@ plt.gca().xaxis.set_major_formatter(ticks_x)
 
 plt.show()
 ```
-![Alt Text](images\4_top10_most_demanded_skills_median_sal.png)
+![Alt Text](images/4_top10_most_demanded_skills_median_sal.png)
+
 *Bar chart visualizing the Top 10 most demanded skills for data jobs with median salary (Worldwide)*
 
 
@@ -412,7 +420,8 @@ for ax, df, title in zip(axs, dfs, titles):
 plt.tight_layout()
 plt.show()
 ```
-![Alt Text](images\5_optimal_skills_top3_roles.png)
+![Alt Text](images/5_optimal_skills_top3_roles.png)
+
 *Scatter plot visualizing the most optimal skills for Top 3 data roles with median salary (Worldwide)*
 
 This composite chart features 3 scatter plots that highlight the most optimal skills for Top 3 Data Roles—Data Analysts, Data Engineers, and Data Scientists—based on median salary and the percentage of data jobs requiring these skills.

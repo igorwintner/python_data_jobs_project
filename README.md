@@ -38,7 +38,7 @@ import ast
 
 # Loading Data
 
-df = pd.read_parquet('---path to the file --- data_jobs.parquet')
+df = pd.read_parquet('path/to/the/file/data_jobs.parquet')
 
 # A bit of cleaning up
 

@@ -294,7 +294,7 @@ This line chart visualizes the monthly percentage of job postings in 2023 that m
 ### Full code can be found in 3rd Jupyter Notebook via this 🔗[Link](3_Skills_Trend.ipynb).
 
 ## 3. What is the earning potential for Data Roles based on their skills?
-The dataset contains too few job offers in the Central European region that also include salaries, so the results would be biased. Therefore, job offers data from all over the world are now used to make the graph more representative. It would be more typical to use Top 5 instead of Top 6, but in that case the chart would not include the Data Analyst role, which is the number one role in terms of job postings. Therefore, the top 6 data positions with annual salary in USD are displayed.
+The dataset contains too few job offers in the Central European region that also include salaries, so the results would be biased. Therefore, job offers data from all over the world are now used to make the graph more representative. It would be more typical to use Top 5 instead of Top 6, but in that case the chart would not include the Data Analyst role, which is the number one role in terms of job postings. Therefore, the Top 6 data positions with annual salary in USD are displayed.
 ```python
 # Create a box plot with Seaborn
 sns.boxplot(data=top6_jobs, x='salary_year_avg', y='job_title_short', order=job_order, palette='Set2')

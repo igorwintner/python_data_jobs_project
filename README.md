@@ -226,6 +226,7 @@ plt.show()
 
 ### Compare worldwide results with results in Central Europe
 ![Alt Text](images/2_demanded_skills_eur.png)
+
 *Bar chart visualising the most demanded skills for the Top 3 most popular data roles (Cent. European reg.)*
 
 

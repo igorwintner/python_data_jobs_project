@@ -154,7 +154,7 @@ I also wanted to explore the European market, which may be more specific in some
 df_plot = df_eur_jobs['job_location'].value_counts().head(10).to_frame().reset_index()
 df_plot.columns = ['job_location', 'count']  # Rename columns after resetting index
 
-# Plot using seaborn barplot
+# Plot using Seaborn barplot
 sns.barplot(data=df_plot, x='count', y='job_location', palette='ch:s=.25,rot=-.25_r')
 
 # Add labels and show plot

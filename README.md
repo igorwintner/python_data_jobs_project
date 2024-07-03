@@ -62,7 +62,7 @@ plt.ylabel('')
 plt.title('Number of Job Postings by Job Title')
 plt.show()
 ```
-![Alt Text](images\1_count_of_jobs_by_title.png) 
+![Alt Text](images/1_count_of_jobs_by_title.png) 
 *Bar chart visualising the count of data job offers (Worldwide)*
 
 This bar chart shows the count of job postings for various job titles in the data field. The titles include:

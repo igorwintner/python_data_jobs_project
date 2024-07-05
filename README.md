@@ -356,7 +356,7 @@ plt.ylabel('')
 plt.xlabel('Median Salary (USD)')
 
 # Format the x-axis ticks to display salaries in thousands (e.g., 50K, 100K)
-ticks_x = plt.FuncFormatter(lambda y, pos: f'${int(y/1000)}K')
+ticks_x = plt.FuncFormatter(lambda x, pos: f'${int(x/1000)}K')
 plt.gca().xaxis.set_major_formatter(ticks_x)
 
 plt.show()

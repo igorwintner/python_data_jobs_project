@@ -193,6 +193,9 @@ This bar chart illustrates the count of job postings for analyst roles in variou
 
 # The Analysis
 ## 1. What are the primary skills required for the Top 3 most popular data roles?
+
+### This is code for only the first chart
+Link to the full code is given below.
 ```python
 # Define the job titles to plot
 job_titles = ['Data Scientist', 'Data Engineer', 'Data Analyst']
@@ -217,7 +220,6 @@ for i, job_title in enumerate(job_titles):
 fig.suptitle('Count of Most Demanded Skills in Job Offers (Worldwide)', fontsize=14)
 fig.tight_layout(rect=[0, 0.03, 1, 0.95])
 plt.show()
-# This is code for only the first chart
 ```
 ![Alt Text](images/2_demanded_skills_ww.png)
 
